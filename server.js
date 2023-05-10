@@ -9,7 +9,7 @@ app.use(cors());
 
 app.get('/api/get_restaurants', (req, res) => {
  
-  const url = `https://www.eatsure.com/v1/api/get_restaurants?store_id=10370&city_id=5785&`;
+  const url = `https://www.eatsure.com/v1/api/get_restaurants?store_id=10157&city_id=5785&`;
 
   fetch(url, {
     headers: {
